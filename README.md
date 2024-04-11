@@ -12,3 +12,5 @@ I often use the Osmo Action to shoot a lot of Vlogs, and then compress and save 
 **It's important to note that this command can only be executed on Linux, although it can also be run directly on the Synology system via ssh.**
 
 Before executing, you must use `chmod +x` to grant permission and run it in the script's directory with `.\update metadata and exif by filename.sh`**
+
+<img width="1190" alt="image" src="https://github.com/ansonlianson/fix-exif-and-metadata-by-filename/assets/45104824/13708915-a267-4f13-9755-f749818d92a2">
