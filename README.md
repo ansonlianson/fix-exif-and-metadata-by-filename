@@ -8,11 +8,15 @@
 
 **执行前必须`chmod +x` 给予权限，并在脚本所在目录下用`.\update metadata and exif by filename.sh`来运行**
 
+**使用前必须安装docker**
+
 ## English
 I often use the Osmo Action to shoot a lot of Vlogs, and then compress and save them using software like Adobe Media Encoder. However, after processing, Synology Photo recognizes the file's shooting date as the transcoding date, leading to confusion in the timeline. Fortunately, the files shot by Osmo Action are named after the shooting time, such as `DJI_20221001100918_0001_D_020_1.mp4`, so I can batch modify them based on the file name.
 
 **It's important to note that this command can only be executed on Linux, although it can also be run directly on the Synology system via ssh.**
 
-Before executing, you must use `chmod +x` to grant permission and run it in the script's directory with `.\update metadata and exif by filename.sh`**
+**Before executing, you must use `chmod +x` to grant permission and run it in the script's directory with `.\update metadata and exif by filename.sh`**
+
+**You have to install Docker before use**
 
 <img width="1190" alt="image" src="https://github.com/ansonlianson/fix-exif-and-metadata-by-filename/assets/45104824/13708915-a267-4f13-9755-f749818d92a2">
