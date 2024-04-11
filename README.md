@@ -1,4 +1,6 @@
-# fix-exif-and-metadata-by-filename
+# Fix exif and metadata by Osmo's filename
+# 根据Osmo拍摄的文件名批量修改文件的视频exif数据和文件的metadata
+
 ## 中文
 我常用Osmo Action来拍摄大量的Vlog，并用软件（如Adobe Media Encoder）来进行压缩和保存，但是这样处理后，像Synology Photo会将文件的拍摄日期识别成转码日期，导致在时间线出现混乱。所幸的是Osmo Action拍摄的文件都是以拍摄时间命名的，如`DJI_20221001100918_0001_D_020_1.mp4`，因此我可以根据文件名来批量修改。
 
